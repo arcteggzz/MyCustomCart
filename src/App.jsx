@@ -5,7 +5,7 @@ import ItemInput from "./components/ItemInput";
 
 function App() {
   return (
-    <div className="w-custom-mobile xl:w-customWidth my-10 mx-auto">
+    <div className="w-11/12 xl:w-customWidth my-10 mx-auto">
       <ItemInput/>
     </div>
   );

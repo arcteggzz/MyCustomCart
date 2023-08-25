@@ -6,10 +6,4 @@ export const ItemsData = [
         image: image,
         price: 6000,
     },
-    {
-        id: 2,
-        name: 'Jersey',
-        image: image,
-        price: 6500,
-    },
 ]
