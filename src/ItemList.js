@@ -6,4 +6,5 @@ export const ItemsData = [
         image: image,
         price: 6000,
     },
+    
 ]

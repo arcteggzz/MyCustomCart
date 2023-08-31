@@ -30,12 +30,8 @@ export const itemSlice = createSlice({
                 }
             })
         },
-        toggleVisibility:(state, action)=>{
-            const cardId = action.payload;
-            state[cardId] = !state[cardId];
-        }
     }
 })
 
 export default itemSlice.reducer;
-export const { addItem, deleteItem,updateItem,updatePrice,toggleVisibility  } = itemSlice.actions
+export const { addItem, deleteItem,updateItem,updatePrice  } = itemSlice.actions
